@@ -71,9 +71,9 @@ CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone 
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+rlhlHjYucdwyYTk1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Asianet_serial_HPM/329')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Asianet_serial_HPM/329')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+oM0vMNni9rU5OWQ1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MalluTVserials')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MalluTVserials')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'asianet_surya_zee') # Support Chat Link Without https:// or @
 
 # True Or False
@@ -97,7 +97,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', True))
+VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'inshorturl.com')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'fd85d405b577f2cd524e5d8a185505383d0d4e97')
 # if verify second shortner is True then fill below url and api
