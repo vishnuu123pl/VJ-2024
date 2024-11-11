@@ -291,7 +291,7 @@ async def start(client, message):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/KingVJ01")
+                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/Mallu_adminbot")
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -465,9 +465,14 @@ async def start(client, message):
                     ],[
                         InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                     ]]
+                    await message.reply_photo(
+                        photo="https://telegra.ph/file/b52d3b2e6822de091f333.jpg",
+                        caption="<b>നിങ്ങൾ ഇന്ന് വെരിഫൈ ചെയ്തിട്ടില്ല, ദയവായി Vᴇʀɪғʏ ബട്ടൻ ക്ലിക്ക് ചെയ്യുക & ശേഷം നിങ്ങൾക്ക് പരിധിയില്ലാത്ത സേവനം അടുത്ത 12 മണിക്കൂർ വരെ ലഭിക്കുന്നതാണ്. \n\n 📆ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ \n\n ഇനി വെരിഫൈ ചെയ്യാതെ നിങ്ങൾക്ക് ഡയറക്റ്റ് ഫയൽ വേണമെന്നുണ്ടെങ്കിൽ ഈ ബോട്ടിൽ സബ്ക്രിപ്ഷൻ എടുക്കുക. \n\n======================= \n\n 🎖 1 MONTH PLAN \n\n🎁 50Rs Only🪄 \n\n <blockquote>📺Available OTT👇 SERIALS</blockquote> \n✅ASIANET \n ✅ZEEKERALAM \n ✅MANORAMA \n✅SURYA TV \n\n======================= \n\n കൂടുതലറിയാൻ അഡ്മിൻ ബോട്ടിൽ ബന്ധപ്പെടുക.👮‍♂️\n\n🤖ADMIN\n@Mallu_adminbot</b>",
+                        parse_mode=enums.ParseMode.HTML
+                    )
                     await message.reply_text(
                         text="<b>You are not verified !\nKindly verify to continue !</b>",
-                        protect_content=True,
+                        protect_content=False,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
                     return
@@ -476,7 +481,7 @@ async def start(client, message):
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/KingVJ01")
+                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Mallu_adminbot")
                 ],[
                     InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
                 ]]
@@ -485,7 +490,7 @@ async def start(client, message):
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/KingVJ01")
+                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Mallu_adminbot")
                 ]]
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -538,6 +543,11 @@ async def start(client, message):
                     ],[
                         InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                     ]]
+                    await message.reply_photo(
+                                photo="https://telegra.ph/file/b52d3b2e6822de091f333.jpg",
+                                caption="<b>നിങ്ങൾ ഇന്ന് വെരിഫൈ ചെയ്തിട്ടില്ല, ദയവായി Vᴇʀɪғʏ ബട്ടൻ ക്ലിക്ക് ചെയ്യുക & ശേഷം നിങ്ങൾക്ക് പരിധിയില്ലാത്ത സേവനം അടുത്ത 12 മണിക്കൂർ വരെ ലഭിക്കുന്നതാണ്. \n\n 📆ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ \n\n ഇനി വെരിഫൈ ചെയ്യാതെ നിങ്ങൾക്ക് ഡയറക്റ്റ് ഫയൽ വേണമെന്നുണ്ടെങ്കിൽ ഈ ബോട്ടിൽ സബ്ക്രിപ്ഷൻ എടുക്കുക. \n\n======================= \n\n 🎖 1 MONTH PLAN \n\n🎁 50Rs Only🪄 \n\n <blockquote>📺Available OTT👇 SERIALS</blockquote> \n✅ASIANET \n ✅ZEEKERALAM \n ✅MANORAMA \n✅SURYA TV \n\n======================= \n\n കൂടുതലറിയാൻ അഡ്മിൻ ബോട്ടിൽ ബന്ധപ്പെടുക.👮‍♂️\n\n🤖ADMIN\n@Mallu_adminbot</b>",
+                                parse_mode=enums.ParseMode.HTML
+                            )                    
                     await message.reply_text(
                         text="<b>You are not verified !\nKindly verify to continue !</b>",
                         protect_content=True,
@@ -549,7 +559,7 @@ async def start(client, message):
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/KingVJ01")
+                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Mallu_adminbot")
                 ],[
                     InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
                 ]]
@@ -558,7 +568,7 @@ async def start(client, message):
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/KingVJ01")
+                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Mallu_adminbot")
                 ]]
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -612,7 +622,7 @@ async def start(client, message):
             ]]
             await message.reply_text(
                 text="<b>You are not verified !\nKindly verify to continue !</b>",
-                protect_content=True,
+                protect_content=False,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
             return
@@ -621,7 +631,7 @@ async def start(client, message):
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
         ],[
-            InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/KingVJ01")
+            InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Mallu_adminbot")
         ],[
             InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
         ]]
@@ -630,7 +640,7 @@ async def start(client, message):
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
         ],[
-            InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/KingVJ01")
+            InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Mallu_adminbot")
         ]]
     msg = await client.send_cached_media(
         chat_id=message.from_user.id,
